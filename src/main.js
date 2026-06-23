@@ -5,6 +5,7 @@
 import './styles/index.css';
 import { initStore, getCurrentUser, getSettings, generateAlerts, COLLECTIONS } from './data/store.js';
 import { registerSW } from 'virtual:pwa-register';
+const port = process.env.PORT || 4000;
 
 
 // ─── LAZY PAGE IMPORTS ────────────────────────────────────────
